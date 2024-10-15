@@ -1,0 +1,48 @@
+= macOS PKG Installationspakete
+:page-authors: gdams, SueChaplain, karianna
+:toc:
+
+Eclipse Temurin macOS Installationspakete sind als Standard .pkg Dateien verfügbar,
+welche mit einer interaktiven Benutzeroberfläche oder im Hintergrund über die
+Terminal Kommandozeile ausgeführt werden kann.
+
+== Installation über die GUI
+
+Installation des macOS PKG installers über eine interaktive
+Benutzeroberfläche:
+
+. Die `.pkg` Datei link:/temurin/releases[Herunterladen].
+. Navigiere zum Ordner, der die Datei beinhaltet und öffne die Datei
+um das Installationsprogramm auszuführen
+
+oder
+
+Ziehe das Icon in deinen Applikations-Ordner
+
+. Der Willkommensbildschirm zeigt den Zielordenr für die Installation an,
+welcher später geändert werden kann. Klicke auf Weiter.
+. Lese die Lizenz, klicke auf Weiter und akzeptiere die Lizenz, wenn du mit
+ihr glücklich bist..
+. Ändere den Zielordner für die Installation. Klicke auf Installieren, um die
+Installation abzuschließen.
+
+== Installatin über die Kommandozeile
+
+Eine Hintergrundinstallation ermöglich dir das macOS Paket zu installieren, ohne
+dass eine Benutzerinteraktion erforderlich ist, was bei einer breitflächigen
+Bereitstellung nützlich sein kann.
+Administratorrechte sind erforderlich.
+Folge diesen Schritten:
+
+. Die `.pkg` Datei link:/temurin/releases[Herunterladen].
+. Öffne das Terminal (`terminal.app`).
+. Führe folgenden Befehl aus:
++
+[source, bash]
+----
+installer -pkg <path_to_pkg>/<pkg_name>.pkg -target /
+----
+. Gib das Administratorpasswort ein
+. Temurin wird in
+`/Library/Java/JavaVirtualMachines/temurin-<version>.<jdk|jre>/`
+installiert

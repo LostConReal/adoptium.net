@@ -1,0 +1,26 @@
+= Eclipse Temurin(TM) installieren
+:page-authors: gdams, karianna, tellison
+
+link:/temurin/releases[Eclipse Temurin] kann in mehreren Installationspaketformate
+heruntergeladen werden:
+
+* Paketmanager (oben gezeigt)
+* link:#_installers[Installationspaket]
+* link:https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc[programmierbare API]
+* link:/installation/archives[Archivdateien]
+* link:https://hub.docker.com/_/eclipse-temurin[Container Images] (Externe Dokumentation auf DockerHub)
+
+Die Binärdateien werden auf den Plattformen und Betriebssytemen unterstützt,
+welche in link:/supported-platforms[unterstützte Plattformen] gelistet sind. 
+Solltest du zu Temurin migerieren, dann kannst du die Unterschiede zwischen
+Oracle JDK und Temurin und eventuell weitere Schritte in unserer
+link:/docs/migration[Migrationsanleitung] einsehen.
+
+== Installer
+
+Installationsppakete sind derzeitr für Windows(R) und macOS(R) JDK und JRE
+verfügbar. Installationsschritte sind in den folgenden Sektionen aufgeführt:
+
+* link:/installation/windows[Windows MSI Installationspakete]
+* link:/installation/macOS[macOS PKG Installationspakete]
+* link:/installation/linux[Linux (RPM/DEB/APK) Installationspakete]
