@@ -18,7 +18,7 @@ link:/docs/migration[Migrationsanleitung] einsehen.
 
 == Installer
 
-Installationsppakete sind derzeitr für Windows(R) und macOS(R) JDK und JRE
+Installationspakete sind derzeitr für Windows(R) und macOS(R) JDK und JRE
 verfügbar. Installationsschritte sind in den folgenden Sektionen aufgeführt:
 
 * link:/installation/windows[Windows MSI Installationspakete]
